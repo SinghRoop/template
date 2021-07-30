@@ -1,0 +1,129 @@
+@import url("./root.css");
+
+/* Navbar  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_logo {
+  margin-left: 2rem;
+  font-weight: 700;
+}
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.navbar_links {
+  color: var(--primary-color);
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+
+/* Home Page */
+
+.home {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer  */
+
+.footer {
+  text-align: center;
+}
+
+/* Login  */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login_title{
+    margin-top: 50px;
+}
+.login_container {
+  width: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid var(--secondry-color);
+  margin-top: 20px;
+}
+
+.login_container .form_label {
+  font-size: 1.1rem;
+}
+
+.login_container > form > input {
+  margin: 10px 0;
+  width: 100%;
+  height: 30px;
+  padding: 8px;
+}
+
+.login_submit_btn{
+    display: block;
+    margin: 5px auto 0;
+    padding: 5px 18px;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup_title{
+    margin-top: 50px;
+}
+.signup_container {
+  width: 400px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid var(--secondry-color);
+  margin-top: 20px;
+}
+
+.signup_container .form_label {
+  font-size: 1.1rem;
+}
+
+.signup_container > form > input {
+  margin: 10px 0;
+  width: 100%;
+  height: 30px;
+  padding: 8px;
+}
+.signup_terms{
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+}
+.signup_terms .signup_terms_text{
+    margin-left: 5px;
+}
+.signup_submit_btn{
+    display: block;
+    margin: 12px auto 0;
+    padding: 5px 18px;
+}
